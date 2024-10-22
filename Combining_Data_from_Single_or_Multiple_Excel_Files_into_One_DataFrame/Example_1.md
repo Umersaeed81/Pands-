@@ -7,6 +7,8 @@ The objective of this code is to:
 
 In simple terms, the code collects data from every tab in the Excel file and merges it all together into one big table for easier analysis.
 
+![](https://github.com/Umersaeed81/Pands-/blob/main/Combining_Data_from_Single_or_Multiple_Excel_Files_into_One_DataFrame/Example_1.png?raw=true)
+
 ## Import Required Libraries
 
 
