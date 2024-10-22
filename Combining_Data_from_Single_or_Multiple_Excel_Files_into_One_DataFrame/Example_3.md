@@ -16,9 +16,10 @@
   </tr>
 </table>
 
+
 # Consolidating Data from Multiple Excel Sheets into a Single Table with Sheet Identification
 
-The objective of this code is to read all the sheets from an Excel file (`Input_File.xlsx`), combine them into a single DataFrame, and add a new column called 'Sheet' to identify which sheet each row came from. It is designed to merge data from multiple sheets into one consolidated table for easier analysis.
+In today’s data-driven world, working with multiple data sources is a common challenge. When dealing with Excel files containing numerous sheets, analysts often need a method to combine this information into a single view for easier analysis. This example demonstrates how to read all the sheets from an Excel file (`Input_File.xlsx`), combine them into a single DataFrame, and add a new column called 'Sheet' to identify which sheet each row came from. This approach streamlines the data consolidation process, facilitating effective data analysis.
 
 ![](https://github.com/Umersaeed81/Pands-/blob/main/Combining_Data_from_Single_or_Multiple_Excel_Files_into_One_DataFrame/Example_3.png?raw=true)
 
@@ -97,7 +98,11 @@ df0
 </table>
 </div>
 
+
+
 ## Explanation
-This example is similar to the [previous](https://github.com/Umersaeed81/Pands-/blob/main/Combining_Data_from_Single_or_Multiple_Excel_Files_into_One_DataFrame/Example_1.md) one; however, in this example, we also retrieve the name of the sheet from which each row originated by adding a new column called 'Sheet.' This enhancement allows for easier identification of the source sheet when analyzing the consolidated data from multiple sheets in the Excel file.
+This example enhances the [previous](https://github.com/Umersaeed81/Pands-/blob/main/Combining_Data_from_Single_or_Multiple_Excel_Files_into_One_DataFrame/Example_1.md) approach by incorporating a new column labeled 'Sheet,' indicating the source sheet for each row. This modification allows analysts to quickly identify the origin of data when reviewing the consolidated information, ultimately improving data integrity and facilitating more insightful analysis.
+
+
 
 ![](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/banoqabil.png?raw=true)
