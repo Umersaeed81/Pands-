@@ -16,9 +16,12 @@
   </tr>
 </table>
 
+
 # Merging Data from Multiple Excel Files into DataFrames by Sheet
 
-The objective of the code is to merge data from all Excel files in the `D:/merge/` directory. It reads each Excel file and combines the data from all sheets into a single DataFrame for each sheet, adding two new columns: one for the sheet name and another for the file name. This way, you end up with a consolidated view of the data from multiple Excel files and their sheets.
+In many data analysis tasks, it is common to work with multiple Excel files that contain related data across different sheets. This article provides a comprehensive approach to merging data from all Excel files in a specified directory. By reading each Excel file and combining the data from all sheets into a single DataFrame, we can easily analyze and visualize the consolidated dataset. The method also includes additional columns for the sheet name and file name, allowing for better traceability and understanding of the data sources.
+
+
 
 ![](https://github.com/Umersaeed81/Pands-/blob/main/Combining_Data_from_Single_or_Multiple_Excel_Files_into_One_DataFrame/Example_5.png?raw=true)
 
