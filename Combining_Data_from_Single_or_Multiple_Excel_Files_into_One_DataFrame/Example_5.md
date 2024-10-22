@@ -19,7 +19,7 @@
 
 # Merging Data from Multiple Excel Files into DataFrames by Sheet
 
-In many data analysis tasks, it is common to work with multiple Excel files that contain related data across different sheets. This article provides a comprehensive approach to merging data from all Excel files in a specified directory. By reading each Excel file and combining the data from all sheets into a single DataFrame, we can easily analyze and visualize the consolidated dataset. The method also includes additional columns for the sheet name and file name, allowing for better traceability and understanding of the data sources.
+In many data analysis tasks, it is common to work with multiple Excel files that contain related data across different sheets. This example provides a comprehensive approach to merging data from all Excel files in a specified directory. By reading each Excel file and combining the data from all sheets into a single DataFrame, we can easily analyze and visualize the consolidated dataset. The method also includes additional columns for the sheet name and file name, allowing for better traceability and understanding of the data sources.
 
 
 
