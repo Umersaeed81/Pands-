@@ -1,4 +1,4 @@
-## Collecting DataFrames from Excel Sheets into a Dictionary with Source Details
+# Collecting DataFrames from Excel Sheets into a Dictionary with Source Details
 
 The provided code aims to read multiple Excel files from a specified directory (`D:/merge/`) and extract data from all sheets within each file. It stores the resulting dataframes in a dictionary, where each key corresponds to a sheet name, and the value is a concatenated dataframe containing data from that sheet across all Excel files. Additionally, it includes columns to indicate the source sheet and the file name from which the data was extracted.
 
@@ -78,20 +78,7 @@ dfs['PHD']
 
 
 
-<div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
 
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
