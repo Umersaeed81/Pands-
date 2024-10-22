@@ -20,6 +20,8 @@
 
 The objective of this code is to read all the sheets from an Excel file (`Input_File.xlsx`), combine them into a single DataFrame, and add a new column called 'Sheet' to identify which sheet each row came from. It is designed to merge data from multiple sheets into one consolidated table for easier analysis.
 
+![](https://github.com/Umersaeed81/Pands-/blob/main/Combining_Data_from_Single_or_Multiple_Excel_Files_into_One_DataFrame/Example_3.png?raw=true)
+
 ## Import Required Libraries
 
 
