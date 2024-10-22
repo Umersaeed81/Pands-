@@ -25,6 +25,8 @@ The objective of this code is to:
 3. Combine the data from each sheet across all the Excel files into one single dataset for each sheet, merging the data vertically (row by row).
 4. Ignore the original row indices, and create new ones for the combined data.
 
+![](https://github.com/Umersaeed81/Pands-/blob/main/Combining_Data_from_Single_or_Multiple_Excel_Files_into_One_DataFrame/Example_4.png?raw=true)
+
 ## Import Required Libraries
 
 
