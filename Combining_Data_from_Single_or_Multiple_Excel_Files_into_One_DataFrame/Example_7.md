@@ -18,13 +18,16 @@
 
 # Collecting DataFrames from Excel Sheets into a Dictionary with Source Details
 
-The provided code aims to read multiple Excel files from a specified directory (`D:/merge/`) and extract data from all sheets within each file. It stores the resulting dataframes in a dictionary, where each key corresponds to a sheet name, and the value is a concatenated dataframe containing data from that sheet across all Excel files. Additionally, it includes columns to indicate the source sheet and the file name from which the data was extracted.
+When working with data spread across multiple Excel files, it's crucial to consolidate this information efficiently for analysis. This article demonstrates how to read multiple Excel files from a specified directory and extract data from all sheets within each file. The resulting DataFrames are stored in a dictionary where each key corresponds to a sheet name, and the value is a concatenated DataFrame containing data from that sheet across all Excel files. Additionally, we include columns to indicate the source sheet and the file name from which the data was extracted, ensuring that we maintain a clear record of the data’s origin.
 
 ## Important Note
 
-In the [previous](https://github.com/Umersaeed81/Pands-/blob/main/Combining_Data_from_Single_or_Multiple_Excel_Files_into_One_DataFrame/Example_6.md) example, only the sheet name of the Excel file located at the zero index (first file) is imported. Attempting to access sheets from other files without specifying the correct file location will result in an error. This behavior emphasizes the importance of managing file and sheet indexing correctly to avoid runtime errors.
+
+
+In the [previous example](https://github.com/Umersaeed81/Pands-/blob/main/Combining_Data_from_Single_or_Multiple_Excel_Files_into_One_DataFrame/Example_6.md) , only the sheet name of the Excel file located at index zero (first file) is imported. Attempting to access sheets from other files without specifying the correct file location will result in an error. This behavior emphasizes the importance of managing file and sheet indexing correctly to avoid runtime errors.
 
 ![](https://github.com/Umersaeed81/Pands-/blob/main/Combining_Data_from_Single_or_Multiple_Excel_Files_into_One_DataFrame/Example_7.png)
+
 ## Import Required Libraries
 
 
