@@ -183,6 +183,11 @@ df0['MS']
 </table>
 </div>
 
+
+## Explanation
+This example is similar to the [previous](https://github.com/Umersaeed81/Pands-/blob/main/Combining_Data_from_Single_or_Multiple_Excel_Files_into_One_DataFrame/Example_4.md) one; however, in this example, we also retrieve the sheet name and the full file name. By adding two new columns—one for the sheet name and another for the file name—we achieve a consolidated view of the data from multiple Excel files and their respective sheets, making it easier to analyze the combined data.
+
+
 ![](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/banoqabil.png?raw=true)
 
 
