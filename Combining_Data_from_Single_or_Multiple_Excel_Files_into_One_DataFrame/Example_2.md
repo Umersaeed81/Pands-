@@ -1,4 +1,12 @@
-# Example-2
+# Merging All Sheets from Multiple Excel Files into a Single DataFrame
+
+The objective of this code is to:
+
+1. **Find all Excel files** in the folder D:/merge/.
+2. **Read and combine** all the sheets from each Excel file.
+3. **Merge the data** from all these files and their sheets into one single dataframe.
+
+In simple terms, the code takes multiple Excel files from a folder, reads each sheet from those files, and combines everything into one big table for easier analysis.
 
 ## Import Required Libraries
 
@@ -94,3 +102,11 @@ df2
 ```python
 df2.to_excel('Merged.xlsx',index=False)
 ```
+
+## Explanation
+
+- The `glob()` function is used to search for all Excel files (`*.xlsx`) in the specified folder (`D:/merge/`). This returns a list of file paths for all matching files.
+
+- A nested `pd.concat()` function is employed: the inner `pd.read_excel(file, sheet_name=None)` reads all sheets from each Excel file into a dictionary of dataframes, similar to the first example. The outer `pd.concat()` then concatenates all the sheets from each file into a single dataframe.
+
+- Finally, the `reset_index(drop=True)` method resets the index of the combined dataframe (`df2`), ensuring a clean and continuous index without retaining the old index.
