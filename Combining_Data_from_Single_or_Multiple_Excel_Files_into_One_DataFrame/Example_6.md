@@ -20,6 +20,8 @@
 
 The goal of this code is to merge all Excel files from a specified directory into a single DataFrame for each sheet in those files. It reads all the sheets from the first Excel file, combines the data from the same sheets across all the specified files, and adds two new columns: one indicating the sheet name and another showing the original filename.
 
+![](https://github.com/Umersaeed81/Pands-/blob/main/Combining_Data_from_Single_or_Multiple_Excel_Files_into_One_DataFrame/Example_6.png?raw=true)
+
 ## Import Required Libraries
 
 
