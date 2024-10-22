@@ -19,7 +19,7 @@
 
 # Combining Data from Matching Sheet Names Across Multiple Excel Files
 
-In data analysis, it's common to encounter situations where relevant information is scattered across multiple Excel files with similar structures. This article presents a method to consolidate data from matching sheet names across multiple Excel files located in a specific folder. The objective is to import all Excel files, identify the sheet names in the first file, and combine the data from each sheet into a single dataset for easier analysis. This approach enables analysts to streamline their workflows and efficiently manage their datasets.
+In data analysis, it's common to encounter situations where relevant information is scattered across multiple Excel files with similar structures. This example presents a method to consolidate data from matching sheet names across multiple Excel files located in a specific folder. The objective is to import all Excel files, identify the sheet names in the first file, and combine the data from each sheet into a single dataset for easier analysis. This approach enables analysts to streamline their workflows and efficiently manage their datasets.
 
 ![](https://github.com/Umersaeed81/Pands-/blob/main/Combining_Data_from_Single_or_Multiple_Excel_Files_into_One_DataFrame/Example_4.png?raw=true)
 
