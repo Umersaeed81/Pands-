@@ -95,4 +95,7 @@ df0
 </table>
 </div>
 
+## Explanation:
+This example is similar to the [previous](https://github.com/Umersaeed81/Pands-/blob/main/Combining_Data_from_Single_or_Multiple_Excel_Files_into_One_DataFrame/Example_1.md) one; however, in this example, we also retrieve the name of the sheet from which each row originated by adding a new column called 'Sheet.' This enhancement allows for easier identification of the source sheet when analyzing the consolidated data from multiple sheets in the Excel file.
+
 ![](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/banoqabil.png?raw=true)
