@@ -16,14 +16,10 @@
   </tr>
 </table>
 
+
 # Combining Data from Matching Sheet Names Across Multiple Excel Files
 
-The objective of this code is to:
-
-1. Import all Excel files from the folder `'D:/merge/'`.
-2. Identify all the sheet names in the first Excel file.
-3. Combine the data from each sheet across all the Excel files into one single dataset for each sheet, merging the data vertically (row by row).
-4. Ignore the original row indices, and create new ones for the combined data.
+In data analysis, it's common to encounter situations where relevant information is scattered across multiple Excel files with similar structures. This article presents a method to consolidate data from matching sheet names across multiple Excel files located in a specific folder. The objective is to import all Excel files, identify the sheet names in the first file, and combine the data from each sheet into a single dataset for easier analysis. This approach enables analysts to streamline their workflows and efficiently manage their datasets.
 
 ![](https://github.com/Umersaeed81/Pands-/blob/main/Combining_Data_from_Single_or_Multiple_Excel_Files_into_One_DataFrame/Example_4.png?raw=true)
 
