@@ -1,3 +1,21 @@
+<table style="border-collapse: collapse;">
+  <tr>
+    <td style="vertical-align: top;">
+      <h1><a href="https://www.linkedin.com/in/engumersaeed/">Umer Saeed</a></h1>
+      Sr. RF Planning & Optimization Engineer<br>
+      BSc Telecommunications Engineering, School of Engineering<br>
+      MS Data Science, School of Business and Economics<br>
+      <strong>University of Management & Technology</strong><br>
+      <strong>Mobile:</strong> +923018412180<br>
+      <strong>Email:</strong> umersaeed81@hotmail.com<br>
+      <strong>Address:</strong> Dream Gardens, Defence Road, Lahore<br>
+    </td>
+    <td style="vertical-align: top; padding-left: 100px;">
+      <img src="https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/banoqabil.png?raw=true" alt="Bano Qabil Logo" width="500"/>
+    </td>
+  </tr>
+</table>
+
 # Merging Multiple Excel Files by Sheet Name into a Single DataFrame
 
 The goal of this code is to merge all Excel files from a specified directory into a single DataFrame for each sheet in those files. It reads all the sheets from the first Excel file, combines the data from the same sheets across all the specified files, and adds two new columns: one indicating the sheet name and another showing the original filename.
