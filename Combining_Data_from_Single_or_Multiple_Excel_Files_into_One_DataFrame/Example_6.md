@@ -18,7 +18,7 @@
 
 
 # Merging Multiple Excel Files by Sheet Name into a Single DataFrame
-In data analysis, it is often necessary to combine data from multiple Excel files, especially when each file contains similar information structured in different sheets. This article demonstrates how to merge all Excel files from a specified directory into a single DataFrame for each sheet present in those files. By reading all the sheets from the first Excel file and merging the corresponding sheets across all specified files, we create a comprehensive dataset that includes additional information about the data's origin.
+In data analysis, it is often necessary to combine data from multiple Excel files, especially when each file contains similar information structured in different sheets. This example demonstrates how to merge all Excel files from a specified directory into a single DataFrame for each sheet present in those files. By reading all the sheets from the first Excel file and merging the corresponding sheets across all specified files, we create a comprehensive dataset that includes additional information about the data's origin.
 
 ![](https://github.com/Umersaeed81/Pands-/blob/main/Combining_Data_from_Single_or_Multiple_Excel_Files_into_One_DataFrame/Example_6.png?raw=true)
 
