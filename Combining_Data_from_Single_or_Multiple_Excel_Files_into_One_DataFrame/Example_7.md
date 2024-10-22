@@ -24,6 +24,7 @@ The provided code aims to read multiple Excel files from a specified directory (
 
 In the [previous](https://github.com/Umersaeed81/Pands-/blob/main/Combining_Data_from_Single_or_Multiple_Excel_Files_into_One_DataFrame/Example_6.md) example, only the sheet name of the Excel file located at the zero index (first file) is imported. Attempting to access sheets from other files without specifying the correct file location will result in an error. This behavior emphasizes the importance of managing file and sheet indexing correctly to avoid runtime errors.
 
+![](https://github.com/Umersaeed81/Pands-/blob/main/Combining_Data_from_Single_or_Multiple_Excel_Files_into_One_DataFrame/Example_7.png)
 ## Import Required Libraries
 
 
