@@ -1,3 +1,21 @@
+<table style="border-collapse: collapse;">
+  <tr>
+    <td style="vertical-align: top;">
+      <h1><a href="https://www.linkedin.com/in/engumersaeed/">Umer Saeed</a></h1>
+      Sr. RF Planning & Optimization Engineer<br>
+      BSc Telecommunications Engineering, School of Engineering<br>
+      MS Data Science, School of Business and Economics<br>
+      <strong>University of Management & Technology</strong><br>
+      <strong>Mobile:</strong> +923018412180<br>
+      <strong>Email:</strong> umersaeed81@hotmail.com<br>
+      <strong>Address:</strong> Dream Gardens, Defence Road, Lahore<br>
+    </td>
+    <td style="vertical-align: top; padding-left: 100px;">
+      <img src="https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/banoqabil.png?raw=true" alt="Bano Qabil Logo" width="500"/>
+    </td>
+  </tr>
+</table>
+
 # Merging All Sheets from Multiple Excel Files into a Single DataFrame
 
 The objective of this code is to:
@@ -112,3 +130,5 @@ df2.to_excel('Merged.xlsx',index=False)
 - A nested `pd.concat()` function is employed: the inner `pd.read_excel(file, sheet_name=None)` reads all sheets from each Excel file into a dictionary of dataframes, similar to the first example. The outer `pd.concat()` then concatenates all the sheets from each file into a single dataframe.
 
 - Finally, the `reset_index(drop=True)` method resets the index of the combined dataframe (`df2`), ensuring a clean and continuous index without retaining the old index.
+
+  ![](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/banoqabil.png?raw=true)
