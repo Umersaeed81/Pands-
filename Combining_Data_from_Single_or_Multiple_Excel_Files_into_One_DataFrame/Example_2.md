@@ -8,6 +8,8 @@ The objective of this code is to:
 
 In simple terms, the code takes multiple Excel files from a folder, reads each sheet from those files, and combines everything into one big table for easier analysis.
 
+![](https://github.com/Umersaeed81/Pands-/blob/main/Combining_Data_from_Single_or_Multiple_Excel_Files_into_One_DataFrame/Example_2.png?raw=true)
+
 ## Import Required Libraries
 
 
